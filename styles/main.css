@@ -1,0 +1,36 @@
+/* Inserta tu CSS aqui */
+*{
+	outline: 1px solid violet;
+}
+
+.list ul{
+	list-style: none;
+}
+.list li{
+	display: inline;
+	margin:5%;
+}
+header{
+	margin-top: 25px;
+
+}
+.hero{
+	background: url(../images/background.jpg)no-repeat;
+	color:white;
+	height: 600px;
+}
+.info{
+	background: url("../images/tile1.png");
+}
+.profile{
+	float:left;
+	margin: 10% 5% 5% 15%;
+	padding: auto;
+	border:1px solid black;
+}
+.info h1 {
+	margin: 4% 15% 2.5% 10%;
+}
+.info p{
+	margin: 0 15% 10% 10%;
+}
