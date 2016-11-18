@@ -1,10 +1,7 @@
 /* Inserta tu CSS aqui */
 *{
-	
-
+	color:#BF00FF;
 }
-
-
 .list ul{
 	list-style: none;
 }
@@ -14,12 +11,11 @@
 }
 header{
 	margin-top: 25px;
-
 }
 .hero{
 	background: url(../images/background.jpg)no-repeat;
-	color:white;
 	height: 600px;
+	background-attachment: fixed;
 }
 .info{
 	background: url("../images/tile1.png");
@@ -35,13 +31,6 @@ header{
 }
 .info p{
 	margin: 0 15% 10% 10%;
-}
-.galery ul{
-	list-style: none;
-}
-.galery li{
-	display: inline;
-	margin: 2%;
 }
 .carousel-inner > .item > img,
   	.carousel-inner > .item > a > img {
@@ -59,18 +48,24 @@ header{
  }
  .list-ref ul{
 	list-style: none;
-	margin-top: 20px;
 }
 .list-ref li{
 	display: inline;
-	margin: 2%;
+	margin: 20px;
+}
+.list-ref li img{
+	margin-top: 5%;
+    width:10%;
+    max-width:400px;
 }
 .tittle{
 	margin-top: 10%;
 	font-family: 'Chelsea Market', cursive;
+	color: white;
 }
 .frase{
 	font-family: 'Indie Flower', cursive;
 	font-family: 'Indie Flower', cursive;
-
+	color: white;
 }
+
