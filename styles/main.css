@@ -1,7 +1,9 @@
 /* Inserta tu CSS aqui */
 *{
-	outline: 1px solid violet;
+	
+
 }
+
 
 .list ul{
 	list-style: none;
@@ -33,4 +35,42 @@ header{
 }
 .info p{
 	margin: 0 15% 10% 10%;
+}
+.galery ul{
+	list-style: none;
+}
+.galery li{
+	display: inline;
+	margin: 2%;
+}
+.carousel-inner > .item > img,
+  	.carousel-inner > .item > a > img {
+      width: 30%;
+      margin: auto;
+ }
+ footer{
+ 	background: url("../images/tile2.png");
+ 	height: 300px;
+ 	padding-top: 7%;
+	margin-top: 2%;
+ }
+ footer h3{
+	margin-top: -3%;
+ }
+ .list-ref ul{
+	list-style: none;
+	margin-top: 20px;
+}
+.list-ref li{
+	display: inline;
+	margin: 2%;
+}
+.tittle{
+	margin-top: 10%;
+	font-family: 'Chelsea Market', cursive;
+}
+.frase{
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Indie Flower', cursive;
+
 }
